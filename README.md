@@ -23,9 +23,15 @@ closely. An expansion of that idea could also be to add an interface for customi
 ### Instructions
 
 1. To run this code, use `git clone https://github.com/J-an777/python-keylogger.git`.
+
 2. Navigate to the proper directory by doing `cd python-keylogger`.
+
 3. ***Optional*** You can choose to go into `keylogger.py` and set up an email and [app password](https://support.google.com/mail/answer/185833?hl=en-GB#:~:text=Create%20and%20use%20app%20passwords%201%20Go%20to,is%20generated%20on%20your%20device.%208%20Select%20Done) if you want to take advantage of the email feature of this logger.
-3. ***Optional*** From here, you can create a virtual environment in Windows if you want using `python -m venv env-name`.
-4. ***Optional*** To activate the virtual environment in Windows, you can use `env-name\Scripts\activate`.
-5. Use `pip install -r requirements.txt` to install all the dependencies.
-6. You can now run the python file just as any other by using `python keylogger.py`.
+
+4. ***Optional*** From here, you can create a virtual environment in Windows if you want using `python -m venv env-name`.
+
+5. ***Optional*** To activate the virtual environment in Windows, you can use `env-name\Scripts\activate`.
+
+6. Use `pip install -r requirements.txt` to install all the dependencies.
+
+7. You can now run the python file just as any other by using `python keylogger.py`.
