@@ -19,3 +19,9 @@ email libraries for sending the text file to a predefined email.
 
 This program can be built on further. It is possible to incorporate a timestamp feature so we the user's activity can be monitored more
 closely. An expansion of that idea could also be to add an interface for customizing when data is sent, how data is received, and more.
+
+### Instructions
+
+1. To run this code, use `git clone https://github.com/J-an777/python-keylogger.git`
+2. Navigate to the proper directory by doing `cd python-keylogger`
+3. [Optional] From here, you can create a virtual environment in Windows if you want using 
