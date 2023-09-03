@@ -24,4 +24,4 @@ closely. An expansion of that idea could also be to add an interface for customi
 
 1. To run this code, use `git clone https://github.com/J-an777/python-keylogger.git`
 2. Navigate to the proper directory by doing `cd python-keylogger`
-3. [Optional] From here, you can create a virtual environment in Windows if you want using 
+3. *Optional* From here, you can create a virtual environment in Windows if you want using 
