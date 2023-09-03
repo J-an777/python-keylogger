@@ -22,6 +22,9 @@ closely. An expansion of that idea could also be to add an interface for customi
 
 ### Instructions
 
-1. To run this code, use `git clone https://github.com/J-an777/python-keylogger.git`
-2. Navigate to the proper directory by doing `cd python-keylogger`
-3. *Optional* From here, you can create a virtual environment in Windows if you want using 
+1. To run this code, use `git clone https://github.com/J-an777/python-keylogger.git`.
+2. Navigate to the proper directory by doing `cd python-keylogger`.
+3. ***Optional*** From here, you can create a virtual environment in Windows if you want using `python -m venv env-name`.
+4. ***Optional*** To activate the virtual environment in Windows, you can use `env-name\Scripts\activate`.
+5. Use `pip install -r requirements.txt` to install all the dependencies.
+6. You can now run the python file just as any other by using `python keylogger.py`.
