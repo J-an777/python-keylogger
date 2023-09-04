@@ -42,6 +42,8 @@ closely. An expansion of that idea could also be to add an interface for customi
 ### Known Issues
 
 - There is currently no way to abort the program other than using `Ctrl + C`.
+
 - To build this to an .exe file using PyInstaller, a 32-bit version of Python must be used due to the `pywin32` library.
+
 - There is no default behavior for when the email or password is invalid. It will only display an error message and move on with
   clearing the file.
