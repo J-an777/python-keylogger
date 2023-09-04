@@ -36,7 +36,7 @@ def get_current_process():
     current_process = psutil.Process(pid).name()
     return current_process[0:3]
 
-# This function sets the parameters for going to a new line as our keystrokes stack up OR as our process changes. 
+# This function sets the parameters for going to a new line as our keystrokes increase OR as our process changes. 
 
 def check_line_integrity():
     global prev_process
