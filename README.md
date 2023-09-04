@@ -28,7 +28,7 @@ closely. An expansion of that idea could also be to add an interface for customi
 
 3. Navigate to the proper directory by doing `cd python-keylogger`.
 
-4. ***Optional*** You can choose to go into `keylogger.py` and set up an email and [app password](https://support.google.com/mail/answer/185833?hl=en-GB#:~:text=Create%20and%20use%20app%20passwords%201%20Go%20to,is%20generated%20on%20your%20device.%208%20Select%20Done) if you want to take advantage of the email feature of this logger.
+4. ***Optional*** You can choose to go into `keylogger.py` and set up an email and [app password](https://support.google.com/mail/answer/185833?hl=en-GB#:~:text=Create%20and%20use%20app%20passwords%201%20Go%20to,is%20generated%20on%20your%20device.%208%20Select%20Done) (lines 103-105 in the code) if you want to take advantage of the email feature of this logger.
 
 5. ***Optional*** From here, you can create a virtual environment in Windows if you want using `python -m venv env-name`.
 
