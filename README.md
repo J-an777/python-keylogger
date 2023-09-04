@@ -12,8 +12,7 @@ to the text file. After half a day, the content in the text file is erased and s
 
 **Technologies:**
 
-This program uses the pynput library for capturing keystrokes, the pywin32 and psutil libraries for obtaining process names, and various
-email libraries for sending the text file to a predefined email.
+This program uses the `pynput` library for capturing keystrokes, the `pywin32` and `psutil` libraries for obtaining process names, and various email libraries for sending the text file to a predefined email.
 
 **Improvements:**
 
@@ -39,3 +38,10 @@ closely. An expansion of that idea could also be to add an interface for customi
 8. You can now run the python file just as any other by using `python keylogger.py`.
 
 9. You can terminate the script at any time by aborting: `Ctrl + C`.
+
+### Known Issues
+
+- There is currently no way to abort the program other than using `Ctrl + C`.
+- To build this to an .exe file using PyInstaller, a 32-bit version of Python must be used due to the `pywin32` library.
+- There is no default behavior for when the email or password is invalid. It will only display an error message and move on with
+  clearing the file.
