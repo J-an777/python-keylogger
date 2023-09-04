@@ -54,4 +54,5 @@ closely. An expansion of that idea could also be to add an interface for customi
 - https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
 - https://realpython.com/python-send-email/
 - https://www.youtube.com/watch?v=gI_WXyY-PrA&ab_channel=CodersLegacy
+- https://www.youtube.com/watch?v=zxFXnLEmnb4&ab_channel=CodeWithTomi
 - https://stackoverflow.com/questions/14394513/
