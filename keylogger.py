@@ -127,14 +127,18 @@ def clear():
             message.attach(partFile)
             text = message.as_string()
             context = ssl.create_default_context()
-            with smtplib.SMTP("smtp.gmail.com", port) as server:
-                server.starttls(context=context)
-                try:
+
+            # Attempt to get a connection with the email server. This can fail on three counts: no internet, bad password, bad email.
+            try: 
+                with smtplib.SMTP("smtp.gmail.com", port) as server:
+                    server.starttls(context=context)
                     server.login(email_sender, password)
                     server.sendmail(email_sender, email_receiver, text)
                     server.quit()
-                except Exception:
-                    print("Password or email incorrect/nonexistent.")
+            except Exception:
+                print("An error has occurred. Make sure you are connected to the internet, that you are sending to a valid email, and that your password is correct.")
+
+            # Clear.
             attachment.truncate(0)
             attachment.close()
 
