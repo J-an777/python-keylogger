@@ -56,4 +56,3 @@ closely. An expansion of that idea could also be to add an interface for customi
 - https://www.youtube.com/watch?v=gI_WXyY-PrA&ab_channel=CodersLegacy
 - https://www.youtube.com/watch?v=zxFXnLEmnb4&ab_channel=CodeWithTomi
 - https://stackoverflow.com/questions/14394513/
-- lol
